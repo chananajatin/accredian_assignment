@@ -68,13 +68,16 @@ const SignupForm = () => {
     }
 
     try {
-      const response = await fetch('https://login-frhn.onrender.com/api/signup', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ username, email, password }),
-      });
+      const response = await fetch(
+        "https://assignment-ox1i.onrender.com/api/signup",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ username, email, password }),
+        }
+      );
 
       const data = await response.json();
 
