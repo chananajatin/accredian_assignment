@@ -1,6 +1,5 @@
 # Live Website: 
-https://login-signup-mysql-6foc.vercel.app/login
-
+https://accredian-assignment-two.vercel.app/login
 # Here are some key points :-
 1. I have used planet spark for mysql databse.
 2. I have hosted backend on render.
